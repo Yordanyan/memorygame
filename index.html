@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/animation.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="head">
+            <div id="moves"></div>
+            <div id="times"></div>
+        </div>
+        <div class="main-container"></div>
+        <button id="stop" class="hide">Restart Game</button>
+    </div>
+    <div class="starter">
+        <label for="number-input">Pick a number</label>
+        <input type="number" id="number-input">
+        <button id="start">Start Game</button>
+    </div>
+    <div class="resultgame">
+        <p id="result"></p>
+        <button onclick="stopGame()" id="restart">Restart Game</button>
+    </div>
+    <div class="box">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

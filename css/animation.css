@@ -1,0 +1,99 @@
+.box ul li {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	list-style: none;
+	opacity: 0;
+	background: radial-gradient(rgb(47, 70, 86), transparent, transparent);
+	bottom: 0;
+	left: 25vw;
+	animation: animate 3s linear infinite;
+    cursor: default;
+}
+.box ul li:nth-child(2) {
+    background: radial-gradient(White , transparent, transparent);
+	left: 90vw;
+	animation-delay: 1s;
+}
+.box ul li:nth-child(3) {
+    background: radial-gradient(#f5f5f5, transparent, transparent);
+	left: 34vw;
+	animation-delay: 2s;
+}
+.box ul li:nth-child(4) {
+    background: radial-gradient(#add8e6, transparent, transparent);
+	left: 80vw;
+	animation-delay: 3s;
+}
+.box ul li:nth-child(5) {
+    background: radial-gradient(#524276, transparent, transparent);
+	left: 13vw;
+	animation-delay: 4s;
+}
+.box ul li:nth-child(6) {
+    background: radial-gradient(#ffc0cb, transparent, transparent);
+	left: 89vw;
+	animation-delay: 5s;
+}
+.box ul li:nth-child(7) {
+    background: radial-gradient(#ffc0cb, transparent, transparent);
+	left: 40vw;
+	animation-delay: 6s;
+}
+.box ul li:nth-child(8) {
+    background: radial-gradient(#ffc0cb, transparent, transparent);
+	left: 87vw;
+	animation-delay: 7s;
+}
+.box ul li:nth-child(9) {
+    background: radial-gradient(#ffc0cb, transparent, transparent);
+	left: 15vw;
+	animation-delay: 8s;
+}
+.box ul li:nth-child(10) {
+    background: radial-gradient(#ffc0cb, transparent, transparent);
+	left: 94vw;
+	animation-delay: 1.5s;
+}
+.box ul li:nth-child(11) {
+    background: radial-gradient(#ffc0cb, transparent, transparent);
+	left: 20vw;
+	animation-delay: 2.5s;
+}
+.box ul li:nth-child(12) {
+    background: radial-gradient(#ffc0cb, transparent, transparent);
+	left: 10vw;
+	animation-delay: 3.5s;
+}
+.box ul li:nth-child(13) {
+    background: radial-gradient(#ffc0cb, transparent, transparent);
+	left: 89vw;
+	animation-delay: 4.5s;
+}
+.box ul li:nth-child(14) {
+    background: radial-gradient(#ffc0cb, transparent, transparent);
+	left: 85vw;
+	animation-delay: 5.5s;
+}
+.box ul li:nth-child(15) {
+    background: radial-gradient(#ffc0cb, transparent, transparent);
+	left: 30vw;
+	animation-delay: 6.5s;
+}
+.box ul li:nth-child(16) {
+    background: radial-gradient(#ffc0cb, transparent, transparent);
+	left: 90vw;
+	animation-delay: 7.5s;
+}
+@keyframes animate {
+	0% {
+		transform: scale(0);
+		opacity: 1;
+		bottom: 0;
+	}
+	100% {
+		transform: scale(10);
+		opacity: 0;
+		bottom: 100vh;
+	}
+}
